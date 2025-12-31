@@ -19,8 +19,14 @@ public class CorsConfig {
             "http://localhost:3000",
             "http://localhost:3001",
             "http://localhost:3002",
-            "http://localhost:8081",          // ✅ Expo Web
-            "http://localhost:19006"          // ✅ Expo cũ
+            "http://localhost:8081", 
+            "http://localhost:8080",
+            "https://backend-production-9e8c.up.railway.app",
+                     // ✅ Expo Web
+            "http://localhost:19006"  
+            
+            
+                                // ✅ Expo cũ
         ));
 
         configuration.setAllowedMethods(List.of(
